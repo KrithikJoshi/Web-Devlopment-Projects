@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+}
+
+.bgcolor {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, #ff8b13, #ba47d9);
+
+  position: absolute;
+  z-index: -1;
+}
+.text {
+  height: 500px;
+  width: 500px;
+  border: solid 10px black;
+}
