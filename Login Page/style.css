@@ -10,8 +10,14 @@
   position: absolute;
   z-index: -1;
 }
-.text {
+.loginbox {
   height: 500px;
   width: 500px;
-  border: solid 10px black;
+  border: solid 5px black;
+  filter: blur(1px) saturate(1000%);
+}
+
+:root {
+  font-size: 20px;
+  box-sizing: inherit;
 }
