@@ -19,8 +19,16 @@ body {
   position: absolute;
   height: 500px;
   width: 500px;
-  filter: blur(8px);
+  filter: blur(2px);
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.736);
   background-color: white;
   opacity: 0.6;
   z-index: -1;
+  /* border: 1px solid rgba(255, 255, 255, 0.25); */
+  /* backdrop-filter: blur(15px) saturate(1000%); */
+}
+h2.title {
+  text-shadow: rgb(255, 253, 248) 1px 0 10px;
+  color: rgb(228, 60, 88);
+  font-style: bold;
 }
