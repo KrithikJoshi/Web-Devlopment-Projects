@@ -1,34 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 * {
   margin: 0;
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background: linear-gradient(135deg, #ff8b13, #ba47d9);
+  background-repeat: no-repeat;
   z-index: -1;
   overflow: hidden;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
 }
 .loginbox {
   height: 500px;
   width: 500px;
   margin-top: 100px;
+  margin-left: -200px;
+}
+
+.title {
+  text-align: center;
 }
 
 .blureffect {
   position: absolute;
   height: 500px;
-  width: 500px;
-  filter: blur(2px);
-  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.736);
+  width: 800px;
+  box-shadow: 0 0 15px 5px rgba(57, 57, 57, 0.736);
   background-color: white;
-  opacity: 0.6;
+  border-radius: 15px;
+  opacity: 1;
   z-index: -1;
-  /* border: 1px solid rgba(255, 255, 255, 0.25); */
-  /* backdrop-filter: blur(15px) saturate(1000%); */
 }
 h2.title {
   text-shadow: rgb(255, 253, 248) 1px 0 10px;
-  color: rgb(228, 60, 88);
-  font-style: bold;
+}
+
+.ip1 {
+  margin: 1em;
+}
+
+.ip2 {
+  margin: 1em;
+}
+.buttonelement {
+  margin: 1em;
+}
+
+.bg--content {
+  text-align: left;
+  width: 100%;
+}
+
+.background {
+  width: 50%;
+  align-items: left;
 }
