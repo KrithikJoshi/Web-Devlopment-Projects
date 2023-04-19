@@ -46,8 +46,12 @@ h2.title {
 .ip2 {
   margin: 1em;
 }
-.buttonelement {
+.button {
+  position: absolute;
   margin: 1em;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #ff8b13, #ba47d9);
+  color: white;
 }
 
 .bg--content {
