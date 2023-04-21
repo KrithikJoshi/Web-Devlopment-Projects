@@ -70,7 +70,8 @@ h2.title {
 }
 
 .fgu {
-  position: absolute;
+  /* position: absolute; */
   margin: 5em;
   opacity: 0.5;
+  left: 2px;
 }
