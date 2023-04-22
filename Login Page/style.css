@@ -10,7 +10,7 @@ body {
   background: linear-gradient(135deg, #ff8b13, #ba47d9);
   background-repeat: no-repeat;
   z-index: -1;
-  overflow: hidden;
+  overflow: scroll;
   background-attachment: fixed;
   font-family: "Poppins", sans-serif;
 }
@@ -53,7 +53,7 @@ h2.title {
   height: 35px;
   padding: 10px;
   background: linear-gradient(135deg, #ff8b13, #ba47d9);
-  color: black;
+  color: whitesmoke;
   border-radius: 15px;
   border: black;
   box-shadow: 0 0 10px 2 px rgba(57, 57, 57, 0.736);
@@ -66,12 +66,12 @@ h2.title {
 
 .background {
   width: 50%;
-  align-items: left;
+  align-items: right;
 }
 
 .fgu {
-  /* position: absolute; */
+  position: relative;
   margin: 5em;
   opacity: 0.5;
-  left: 2px;
+  /* padding: auto; */
 }
