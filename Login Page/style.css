@@ -36,7 +36,10 @@ body {
   z-index: -1;
 }
 h2.title {
+  position: absolute;
   text-shadow: rgb(255, 253, 248) 1px 0 10px;
+  bottom: 300px;
+  left: 20px;
 }
 
 .ip1 {
@@ -60,8 +63,11 @@ h2.title {
 }
 
 .bg--content {
+  position: absolute;
   text-align: left;
   width: 100%;
+  left: 550px;
+  bottom: 50px;
 }
 
 .background {
@@ -73,5 +79,14 @@ h2.title {
   position: relative;
   margin: 5em;
   opacity: 0.5;
-  /* padding: auto; */
+  right: 1px;
+}
+
+img {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  left: 0px;
+  border-radius: 15px;
+  z-index: -1;
 }
