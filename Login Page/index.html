@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <center>
@@ -13,34 +20,46 @@
         <!-- <img src="./design final.png" alt="design"> -->
         <div class="blureffect">
           <div class="background">
-            <img src="./design final.png" alt="design" />
+            <div><img src="./design final.png" alt="design" /></div>
+
             <div class="bg--content">
               <h2 class="title">USER LOGIN</h2>
               <div class="ip1">
                 <label for="Username">Enter your name:</label><br />
-                <input
-                  type="text"
-                  name="Username"
-                  id="name"
-                  placeholder="username"
-                  required
-                />
+                <div class="input">
+                  <i class="joshi fa-solid fa-user"></i>
+                  <input
+                    type="text"
+                    name="Username"
+                    id="name"
+                    placeholder="username"
+                    required
+                  />
+                </div>
               </div>
               <div class="ip2">
                 <label for="password">Enter your password:</label><br />
-                <input
-                  type="text"
-                  name="password"
-                  id="password"
-                  placeholder="password"
-                  required
-                />
+                <div class="input2">
+                  <i class="icon2 fa-solid fa-lock"></i>
+                  <input
+                    type="text"
+                    name="password"
+                    id="password"
+                    placeholder="password"
+                    required
+                  />
+                </div>
               </div>
               <div class="buttonelement">
-                <button type="button" class="button">Login</button>
+                <button class="button">Login</button>
               </div>
-              <div class="forgot username">
-                <button class="fgu">Forgot Username</button>
+              <div class="main--controls">
+                <div class="forgot-username">
+                  <button class="fgu">Forgot Username?</button>
+                </div>
+                <div class="forgot-password">
+                  <button class="pgu">Password</button>
+                </div>
               </div>
             </div>
           </div>

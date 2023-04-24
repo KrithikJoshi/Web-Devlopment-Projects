@@ -9,8 +9,8 @@ body {
   width: 100%;
   background: linear-gradient(135deg, #ff8b13, #ba47d9);
   background-repeat: no-repeat;
-  z-index: -1;
-  overflow: scroll;
+  /* z-index: -1; */
+  overflow: hidden;
   background-attachment: fixed;
   font-family: "Poppins", sans-serif;
 }
@@ -26,17 +26,16 @@ body {
 }
 
 .blureffect {
-  position: absolute;
+  /* position: absolute; */
   height: 500px;
   width: 800px;
   box-shadow: 0 0 15px 5px rgba(57, 57, 57, 0.736);
   background-color: white;
   border-radius: 15px;
   opacity: 1;
-  z-index: -1;
 }
 h2.title {
-  position: absolute;
+  /* position: absolute; */
   text-shadow: rgb(255, 253, 248) 1px 0 10px;
   bottom: 300px;
   left: 20px;
@@ -50,43 +49,103 @@ h2.title {
   margin: 1em;
 }
 .button {
-  position: absolute;
   margin: 1em;
-  width: 170px;
+  width: 250px;
   height: 35px;
   padding: 10px;
   background: linear-gradient(135deg, #ff8b13, #ba47d9);
   color: whitesmoke;
   border-radius: 15px;
   border: black;
-  box-shadow: 0 0 10px 2 px rgba(57, 57, 57, 0.736);
+  /* box-shadow: 0 0 10px 2 px rgba(57, 57, 57, 0.736); */
 }
 
 .bg--content {
-  position: absolute;
+  margin: 80px auto;
   text-align: left;
-  width: 100%;
-  left: 550px;
-  bottom: 50px;
+  width: 90%;
 }
 
 .background {
-  width: 50%;
-  align-items: right;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
 }
 
 .fgu {
-  position: relative;
-  margin: 5em;
-  opacity: 0.5;
-  right: 1px;
+  margin-left: 20px;
+  border: none;
+  border-color: white;
+  background-color: white;
+  color: #ba47d9;
 }
 
 img {
-  position: absolute;
   height: 500px;
-  width: 500px;
-  left: 0px;
   border-radius: 15px;
-  z-index: -1;
+}
+
+button:active {
+  scale: 1.1;
+}
+
+.input {
+  position: relative;
+  width: 100%;
+  margin-top: 7px;
+}
+
+.input input {
+  width: 70%;
+  padding: 10px 12px 10px 30px;
+  font-size: 15px;
+  border-radius: 7px;
+  border: 1px solid #000;
+}
+
+.joshi {
+  position: absolute;
+  font-size: 22px;
+  top: 8px;
+  left: 5px;
+}
+
+.input2 {
+  position: relative;
+  width: 100%;
+  margin-top: 7px;
+}
+
+.input2 input {
+  width: 70%;
+  padding: 10px 12px 10px 30px;
+  font-size: 15px;
+  border-radius: 7px;
+  border: 1px solid #000;
+}
+
+.icon2 {
+  position: absolute;
+  font-size: 22px;
+  top: 8px;
+  left: 5px;
+}
+
+.pgu {
+  margin-left: 50px;
+  border: none;
+  border-color: white;
+  background-color: white;
+  color: #ba47d9;
+}
+.forgot-username {
+  width: fit-content;
+}
+
+.forgot-password {
+  width: fit-content;
+}
+
+.main--controls {
+  display: flex;
 }
