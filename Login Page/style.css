@@ -9,7 +9,6 @@ body {
   width: 100%;
   background: linear-gradient(135deg, #ff8b13, #ba47d9);
   background-repeat: no-repeat;
-  /* z-index: -1; */
   overflow: hidden;
   background-attachment: fixed;
   font-family: "Poppins", sans-serif;
@@ -26,7 +25,6 @@ body {
 }
 
 .blureffect {
-  /* position: absolute; */
   height: 500px;
   width: 800px;
   box-shadow: 0 0 15px 5px rgba(57, 57, 57, 0.736);
@@ -35,7 +33,6 @@ body {
   opacity: 1;
 }
 h2.title {
-  /* position: absolute; */
   text-shadow: rgb(255, 253, 248) 1px 0 10px;
   bottom: 300px;
   left: 20px;
@@ -57,7 +54,6 @@ h2.title {
   color: whitesmoke;
   border-radius: 15px;
   border: black;
-  /* box-shadow: 0 0 10px 2 px rgba(57, 57, 57, 0.736); */
 }
 
 .bg--content {
