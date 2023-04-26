@@ -145,3 +145,18 @@ button:active {
 .main--controls {
   display: flex;
 }
+
+.button:hover {
+  scale: 1.1;
+  color: #000;
+  background: linear-gradient(135deg, #ba47d9, #ff8b13);
+  transition: 1s;
+}
+.fgu:hover {
+  scale: 1.09;
+  color: #ff8b13;
+}
+.pgu:hover {
+  scale: 1.09;
+  color: #ff8b13;
+}
