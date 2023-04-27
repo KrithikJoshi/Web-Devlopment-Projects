@@ -54,6 +54,7 @@ h2.title {
   color: whitesmoke;
   border-radius: 15px;
   border: black;
+  transition: all 0.3s ease-in-out;
 }
 
 .bg--content {
@@ -150,7 +151,7 @@ button:active {
   scale: 1.1;
   color: #000;
   background: linear-gradient(135deg, #ba47d9, #ff8b13);
-  transition: 0.8s;
+
   /* transition-delay: 10s; */
 }
 .fgu:hover {
