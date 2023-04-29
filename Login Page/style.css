@@ -153,8 +153,6 @@ button:active {
   scale: 1.1;
   color: #000;
   background: linear-gradient(135deg, #ba47d9, #ff8b13);
-
-  /* transition-delay: 10s; */
 }
 .fgu:hover {
   scale: 1.09;
@@ -177,7 +175,6 @@ button:active {
   }
   .blureffect {
     width: max-content;
-    /* padding-right: 60px; */
   }
   .bg--content {
     width: 300px;
