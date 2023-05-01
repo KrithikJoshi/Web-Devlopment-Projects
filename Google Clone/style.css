@@ -1,5 +1,14 @@
 .bg--search {
-  padding: inherit;
-  margin-top: 30%;
-  margin-left: 50%;
+  display: block;
+  margin: auto;
+  padding: auto;
+}
+
+.bg--svg {
+  display: block;
+  margin: auto;
+}
+
+.bg--main {
+  display: grid;
 }
