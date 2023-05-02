@@ -11,4 +11,19 @@
 
 .bg--main {
   display: grid;
+  /* background-color: black; */
 }
+
+body {
+  background: linear-gradient(90deg, #f5f3c1, #27e1c1);
+  animation: const 7s infinite;
+}
+
+/* @keyframes const {
+  from {
+    background-color: #f5f3c1;
+  }
+  to {
+    background-color: #27e1c1;
+  }
+} */
