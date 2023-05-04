@@ -13,6 +13,10 @@ body {
   width: 100%;
   height: 100vh;
   animation: joshi 4s infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 @keyframes joshi {
@@ -22,4 +26,11 @@ body {
   100% {
     background-color: #27e1c1;
   }
+}
+.bg--search input {
+  width: 225px;
+  height: 26px;
+}
+.bg--search input:hover {
+  transform: scale(1.2);
 }
