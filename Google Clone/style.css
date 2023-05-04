@@ -1,30 +1,25 @@
-.bg--search {
-  display: block;
-  margin: auto;
-  padding: auto;
-  /* width: 50%; */
-}
-
-.bg--svg {
-  display: block;
-  margin: auto;
-}
-
-.bg--main {
-  display: grid;
-  /* background-color: black; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background: linear-gradient(90deg, #f5f3c1, #27e1c1);
-  animation: const 7s infinite;
+  /* background: linear-gradient(90deg, #f5f3c1, #27e1c1); */
+  animation: joshi 5s infinite;
 }
 
-/* @keyframes const {
-  from {
+.bg--main {
+  width: 100%;
+  height: 100vh;
+  animation: joshi 4s infinite;
+}
+
+@keyframes joshi {
+  0% {
     background-color: #f5f3c1;
   }
-  to {
+  100% {
     background-color: #27e1c1;
   }
-} */
+}
