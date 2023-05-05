@@ -5,8 +5,8 @@
 }
 
 body {
-  /* background: linear-gradient(90deg, #f5f3c1, #27e1c1); */
-  animation: joshi 5s infinite;
+  background: linear-gradient(90deg, #f5f3c1, #27e1c1);
+  /* animation: joshi 5s infinite; */
 }
 
 .bg--main {
@@ -19,17 +19,19 @@ body {
   flex-direction: column;
 }
 
-@keyframes joshi {
+/* @keyframes joshi {
   0% {
     background-color: #f5f3c1;
   }
   100% {
     background-color: #27e1c1;
   }
-}
+} */
 .bg--search input {
-  width: 225px;
-  height: 26px;
+  width: 450px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
 }
 .bg--search input:hover {
   transform: scale(1.2);
