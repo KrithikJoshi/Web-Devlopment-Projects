@@ -27,12 +27,37 @@ body {
     background-color: #27e1c1;
   }
 } */
+
 .bg--search input {
   width: 450px;
   height: 30px;
-  border: none;
+  border-color: red;
+  /* border: 30px; */
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.bg--search {
+  position: relative;
+}
+
+.bg--search .kj {
+  width: 0px;
+  height: 100%;
+  background-color: red;
+  opacity: 0.5;
+  position: absolute;
+  left: 1px;
+  top: 0;
+  transition: all 0.8s ease-in-out;
   border-radius: 10px;
 }
-.bg--search input:hover {
-  transform: scale(1.2);
+
+/* .bg--search input:hover {
+  transform: scale(1.05);
+  background-color: rgb(248, 210, 210);
+} */
+
+.bg--search:hover .kj {
+  width: 100%;
 }
