@@ -41,17 +41,17 @@ body {
   position: relative;
 }
 
-.bg--search .kj {
+/* .bg--search .kj {
   width: 0px;
   height: 100%;
   background-color: red;
-  opacity: 0.5;
+  opacity: 0.2;
   position: absolute;
   left: 1px;
   top: 0;
   transition: all 0.8s ease-in-out;
   border-radius: 10px;
-}
+} */
 
 /* .bg--search input:hover {
   transform: scale(1.05);
