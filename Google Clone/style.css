@@ -17,6 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
 }
 
 /* @keyframes joshi {
@@ -60,4 +61,12 @@ body {
 
 .bg--search:hover .kj {
   width: 100%;
+}
+
+.bg--searchbutton {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 20px;
+  height: 40px;
 }
