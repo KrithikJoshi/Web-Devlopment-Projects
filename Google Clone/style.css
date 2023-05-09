@@ -40,6 +40,7 @@ body {
 
 .bg--search {
   position: relative;
+  text-align: center;
 }
 
 /* .bg--search .kj {
@@ -63,10 +64,9 @@ body {
   width: 100%;
 }
 
-.bg--searchbutton {
-  margin: 0;
-  padding: 0;
-  text-align: center;
+.bg--btn {
+  margin: 2px auto;
+  padding: 10px 20px;
   margin-top: 20px;
   height: 40px;
 }
