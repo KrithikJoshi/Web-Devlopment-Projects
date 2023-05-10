@@ -36,6 +36,7 @@ body {
   /* border: 30px; */
   border-radius: 10px;
   transition: 0.3s ease-in-out;
+  border: none;
 }
 
 .bg--search {
@@ -69,4 +70,11 @@ body {
   padding: 10px 20px;
   margin-top: 20px;
   height: 40px;
+  background: linear-gradient(90deg, #f5f3c1, #27e1c1);
+  border: red;
+  transition: 0.3s ease-in-out;
+}
+
+.bg--btn:hover {
+  scale: 1.06;
 }
