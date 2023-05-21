@@ -1,0 +1,9 @@
+.bg--input {
+  width: 25%;
+}
+.bg--allinputs {
+  display: flex;
+}
+body {
+  background-color: red;
+}
