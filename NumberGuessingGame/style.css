@@ -26,10 +26,15 @@
 }
 .container--inputs-btns {
   display: flex;
-  width: 60%;
+  gap: 5px;
+  justify-content: center;
 }
 .btn {
   width: 40px;
   height: 40px;
   border-radius: 15px;
+}
+.container--content {
+  width: 100%;
+  align-items: center;
 }
