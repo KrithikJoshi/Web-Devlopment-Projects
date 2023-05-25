@@ -35,6 +35,9 @@
   width: 390px;
   height: 40px;
   border-radius: 15px;
+  color: black;
+  border: none;
+  
 }
 .container--content {
   width: 100%;
