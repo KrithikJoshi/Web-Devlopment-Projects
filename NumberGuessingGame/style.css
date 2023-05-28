@@ -57,3 +57,14 @@
   z-index: -1;
   width: 100em;
 }
+
+.submit {
+  padding: 10px;
+  margin-left: 3px;
+  transition: ease-in-out 0.2s;
+  border: none;
+}
+
+.submit:hover {
+  scale: 1.02;
+}
