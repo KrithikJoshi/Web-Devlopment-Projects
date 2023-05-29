@@ -68,3 +68,6 @@
 .submit:hover {
   scale: 1.02;
 }
+h1 {
+  opacity: 1.001;
+}
