@@ -6,8 +6,7 @@ input.placeholder = "type the numbers here";
 
 const button = document.querySelector(".btn");
 
-function myfunction() {
+function myfunction(val) {
   var input = document.getElementById("input--id");
-  var button1 = document.getElementById("btn1");
-  button1.innerHTML = button1.innerHTML + input.value;
+  input.value = val;
 }
