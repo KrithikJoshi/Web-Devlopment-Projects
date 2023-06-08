@@ -9,5 +9,5 @@ const button = document.querySelector(".btn");
 function myfunction() {
   var input = document.getElementById("input--id");
   var button1 = document.getElementById("btn1");
-  input.innerHTML = input.innerHTML + button1.value;
+  button1.innerHTML = button1.innerHTML + input.value;
 }
