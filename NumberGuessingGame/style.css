@@ -54,7 +54,7 @@
 
 .container--heading {
   padding: 15px;
-  background-color: aqua;
+  /* background-color: aqua; */
   border-radius: 30px;
 }
 .container--img {
@@ -72,6 +72,7 @@
 
 .submit:hover {
   scale: 1.02;
+  background-color: aqua;
 }
 h1 {
   opacity: 1.001;
