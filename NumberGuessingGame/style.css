@@ -54,8 +54,8 @@
 
 .container--heading {
   padding: 15px;
-  /* background-color: aqua; */
-  border-radius: 30px;
+  background-color: aqua;
+  /* border-radius: 30px; */
 }
 .container--img {
   position: absolute;
