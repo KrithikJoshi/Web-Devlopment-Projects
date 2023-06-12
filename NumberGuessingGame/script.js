@@ -10,3 +10,5 @@ function myfunction(val) {
   var input = document.getElementById("input--id");
   input.value = val;
 }
+
+let randomNumber = Math.floor(Math.random()*10) + 1;
