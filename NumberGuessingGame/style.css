@@ -54,7 +54,7 @@
 
 .container--heading {
   padding: 15px;
-  background-color: aqua;
+  /* background: linear-gradient(155deg, lightblue, #fbdf7c); */
   /* border-radius: 30px; */
 }
 .container--img {
