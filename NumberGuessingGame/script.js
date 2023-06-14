@@ -12,3 +12,5 @@ function myfunction(val) {
 }
 
 let randomNumber = Math.floor(Math.random()*10) + 1;
+
+const guesses = document.querySelector()
