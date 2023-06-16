@@ -21,9 +21,9 @@ const loworhi = document.querySelector();
 const guessSubmit = document.querySelector();
 const guessField =  document.querySelector();
 
-// if (guesses >=  lastresult) {
-//   console.log("high")
-// }
-// else(guesses <= lastresult){
-//   console.log("low")
-// }
+if (guesses >=  lastresult) {
+  console.log("high")
+}
+else(guesses <= lastresult){
+  console.log("low")
+}
