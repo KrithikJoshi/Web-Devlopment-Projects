@@ -14,7 +14,7 @@ function myfunction(val) {
 let randomNumber = Math.floor(Math.random()*10) + 1;
 
 const guesses = document.querySelector();
-const lastresult = document.querySelector();
+const lastresult = document.querySelector(".submit");
 const loworhi = document.querySelector();
 
 
@@ -24,6 +24,7 @@ const guessField =  document.querySelector();
 if (guesses >=  lastresult) {
   console.log("high")
 }
-else(guesses <= lastresult){
+else if(guesses <= lastresult){
   console.log("low")
 }
+
