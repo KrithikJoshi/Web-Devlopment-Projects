@@ -18,6 +18,8 @@ const lastresult = document.querySelector(".submit");
 const loworhi = document.querySelector(".loworhi");
 
 
+
+
 const guessSubmit = document.querySelector(".guesssubmit");
 const guessField =  document.querySelector(".guessfield");
 
