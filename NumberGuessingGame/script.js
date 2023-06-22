@@ -24,10 +24,10 @@ function checkWin() {
   if (guessedNum == "") {
     alert("Invalid Input");
   } else if (guessedNum == randomNumber) {
-    alert("Great!!!!!!!");
+    alert("EUUUUUUUUUUUUUUUUU");
   } else if (guessedNum > randomNumber) {
     alert("Jara kam kro Bhaiyaaaaa");
   } else {
-    alert("Boht jyada hi kamho gya");
+    alert("Boht jyada hi kam ho gya");
   }
 }
