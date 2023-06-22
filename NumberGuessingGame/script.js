@@ -11,22 +11,23 @@ function myfunction(val) {
   input.value = val;
 }
 
-let randomNumber = Math.floor(Math.random()*10) + 1;
-
 const guesses = document.querySelector(".guessses");
 const lastresult = document.querySelector(".submit");
 const loworhi = document.querySelector(".loworhi");
 
+lastresult.addEventListener("click", checkWin);
 
+function checkWin() {
+  let guessedNum = input.value;
+  let randomNumber = Math.floor(Math.random() * 10);
 
-
-const guessSubmit = document.querySelector(".guesssubmit");
-const guessField =  document.querySelector(".guessfield");
-
-if (guesses >=  lastresult) {
-  console.log("high")
+  if (guessedNum == "") {
+    alert("Invalid Input");
+  } else if (guessedNum == randomNumber) {
+    alert("Great!!!!!!!");
+  } else if (guessedNum > randomNumber) {
+    alert("Jara kam kro Bhaiyaaaaa");
+  } else {
+    alert("Boht jyada hi kamho gya");
+  }
 }
-else if(guesses <= lastresult){
-  console.log("low")
-}
-
