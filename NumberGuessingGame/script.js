@@ -19,15 +19,16 @@ lastresult.addEventListener("click", checkWin);
 
 function checkWin() {
   let guessedNum = input.value;
-  let randomNumber = Math.floor(Math.random() * 10);
+  // let randomNumber = Math.floor(Math.random() * 10);
+  let randomNumber = 5;
 
   if (guessedNum == "") {
     alert("Invalid Input");
   } else if (guessedNum == randomNumber) {
-    alert("EUUUUUUUUUUUUUUUUU");
+    alert("Win");
   } else if (guessedNum > randomNumber) {
-    alert("Jara kam kro Bhaiyaaaaa");
+    alert("Decrease the Selected Number");
   } else {
-    alert("Boht jyada hi kam ho gya");
+    alert("Increase the Selected Number");
   }
 }
