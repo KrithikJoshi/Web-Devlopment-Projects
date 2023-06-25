@@ -32,3 +32,8 @@ function checkWin() {
     alert("Increase the Selected Number");
   }
 }
+
+
+
+
+//project completed
