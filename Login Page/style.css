@@ -1,4 +1,4 @@
-zx  c @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
   margin: 0;
@@ -63,7 +63,7 @@ h2.title {
   width: 90%;
 }
 
-.background {
+.main--div {
   display: flex;
   justify-content: space-evenly;
   position: relative;
